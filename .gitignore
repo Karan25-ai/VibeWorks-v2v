@@ -1,2 +1,7 @@
 node_modules/
 .env.local
+echo ".env.local" >> .gitignore
+echo ".next/" >> .gitignore
+echo "node_modules/" >> .gitignore
+echo "*.log" >> .gitignore
+echo ".DS_Store" >> .gitignore
